@@ -28,6 +28,11 @@ header {
   padding-right: 20px;
 }
 
+.nav-link:hover {
+  color: coral;
+  transition: 0.8s;
+}
+
 .banner {
   background-image: url("../img/banner.png");
   height: 235px;
@@ -75,6 +80,11 @@ h1 {
   flex-direction: column;
   background-color: #fff;
   margin-left: 20px;
+}
+
+#promos article div:hover {
+  color: coral;
+  transition: 0.8s;
 }
 
 #promos article div strong {
