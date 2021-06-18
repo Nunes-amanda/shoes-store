@@ -77,6 +77,7 @@ h1 {
 
 #promos article div {
   display: flex;
+  flex: 1;
   flex-direction: column;
   background-color: #fff;
   margin-left: 20px;
@@ -115,7 +116,7 @@ h1 {
 }
 
 #botaoDetalhes {
-  width: 400px;
+  width: 350px;
   height: 100px;
   background-color: #C2185B;
   margin-top: 10px;
@@ -124,9 +125,59 @@ h1 {
 
 #botaoDetalhes p {
   font-size: 35px;
+  text-align: center;
   color: #fff;
   margin: 0px;
-  padding: 20px 80px;
+  padding: 30px 65px;
+}
+
+#botaoDetalhes p:hover {
+  transition: 0.8s;
+  background-color: aquamarine;
+}
+
+.contato {
+  display: flex;
+}
+
+form,article {
+  flex: 1;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+  color: #9b9b9b;
+}
+
+input, select {
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  border: solid 1px #9b9b9b;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.options, .options2 {
+  display: flex;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  justify-content: space-evenly;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  background-color: #C2185B;
+  color:#fff;
+  font-size: 14px;
+  text-align: center;
 }
 
 footer {
