@@ -45,6 +45,23 @@ h1 {
   text-align: center;
 }
 
+.frete {
+  background-color: #C2185B;
+  max-width: 1280px;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  z-index: 15;
+}
+
+.frete p {
+  color: #fff;
+  text-transform: uppercase;
+  z-index: 1;
+  position: relative;
+  text-align: center;
+}
+
 #inicio div {
   display: flex;
   justify-content: center;
