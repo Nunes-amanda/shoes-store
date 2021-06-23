@@ -58,8 +58,10 @@ h1 {
 
 .frete p {
   color: #fff;
-  width: 100%;
   height: 70px;
+  font-size: 2rem;
+  padding: 5px 10px;
+  margin: 5px 0;
   text-transform: uppercase;
   z-index: 1;
   position: relative;
