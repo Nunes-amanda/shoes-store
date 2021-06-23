@@ -141,6 +141,11 @@ h1 {
   background-color: #C2185B;
   margin-top: 10px;
   margin-bottom: 60px;
+  transition: 0.8s;
+}
+
+#botaoDetalhes:hover {
+  background-color: aquamarine;
 }
 
 #botaoDetalhes p {
@@ -149,11 +154,6 @@ h1 {
   color: #fff;
   margin: 0px;
   padding: 30px 65px;
-}
-
-#botaoDetalhes p:hover {
-  transition: 0.8s;
-  background-color: aquamarine;
 }
 
 .contato {
