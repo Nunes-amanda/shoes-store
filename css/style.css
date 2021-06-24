@@ -189,15 +189,30 @@ label {
   justify-content: space-evenly;
 }
 
-button {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 15px;
-  padding: 5px 10px;
-  background-color: #C2185B;
-  color:#fff;
+.curriculo > div > input {
+  color: #fff;
+  cursor: pointer;
   font-size: 14px;
-  text-align: center;
+  margin-left: 10px;
+  padding: 3px 40px;
+  background-color: #c4c4c4;
+}
+
+button[type="submit"] {
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 800;
+  background-color: #c2185b;
+  padding: 8px 0;
+  margin: 15px 0;;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  transition: all 3s;
+  background-color: #fff;
+  color: #C2185B;
 }
 
 footer {
